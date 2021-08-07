@@ -1,0 +1,6 @@
+.form__subtitle {
+  @include reset;
+  @include font(19px, 147%);
+  font-weight: bold;
+  padding-bottom: 64px;
+}

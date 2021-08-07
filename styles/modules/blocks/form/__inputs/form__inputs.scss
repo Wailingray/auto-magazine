@@ -1,0 +1,7 @@
+.form__inputs {
+  width: 340px;
+  height: 64px;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: 170px 90px 1fr;
+}

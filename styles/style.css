@@ -399,3 +399,132 @@
 }
 
 /*form*/
+.form {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.form__title {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+  font-size: 46px;
+  line-height: 100%;
+  color: #E1FD2C;
+  font-style: normal;
+  font-weight: bold;
+  padding-bottom: 16px;
+}
+
+.form__subtitle {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+  font-size: 19px;
+  line-height: 147%;
+  color: #E1FD2C;
+  font-style: normal;
+  font-weight: bold;
+  padding-bottom: 64px;
+}
+
+.form__input-container {
+  margin: 0;
+  padding: 0;
+  border: none;
+  display: contents;
+}
+
+.form__item {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #E1FD2C;
+  background-color: transparent;
+  display: block;
+}
+.form__item:focus {
+  outline-color: none;
+}
+.form__item::-moz-placeholder {
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+  font-size: 9px;
+  line-height: 200%;
+  color: #E1FD2C;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: start;
+  margin-left: 11px;
+}
+.form__item:-ms-input-placeholder {
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+  font-size: 9px;
+  line-height: 200%;
+  color: #E1FD2C;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: start;
+  margin-left: 11px;
+}
+.form__item::placeholder {
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+  font-size: 9px;
+  line-height: 200%;
+  color: #E1FD2C;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: start;
+  margin-left: 11px;
+}
+
+.form__button {
+  background-color: transparent;
+  text-decoration: none;
+  border: none;
+  padding: 0;
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  line-height: 130%;
+  color: #E1FD2C;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  grid-row-start: 2;
+  border: 1px solid #E1FD2C;
+}
+.form__button:hover {
+  background: #E1FD2C;
+  color: #191D2C;
+  font-weight: bold;
+}
+
+.form__item_el_name {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.form__item_el_surname {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.form__item_el_email {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+}
+
+.form__inputs {
+  width: 340px;
+  height: 64px;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: 170px 90px 1fr;
+}

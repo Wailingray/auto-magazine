@@ -1,0 +1,15 @@
+.form__button {
+  @include reset-btn;
+  @include font(10px, 130%);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  grid-row-start: 2;
+  border: 1px solid $text-color;
+
+  &:hover {
+    background: $text-color;
+    color: $primary-color;
+    font-weight: bold;
+  }
+}
