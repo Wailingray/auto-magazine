@@ -1,0 +1,6 @@
+.header__nav {
+  @include reset-list;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

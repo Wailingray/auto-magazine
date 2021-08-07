@@ -1,0 +1,12 @@
+.header__link {
+  @include reset-list;
+  @include font(12px, 133%);
+  font-weight: normal;
+  letter-spacing: 1px;
+  margin-right: 20px;
+  text-transform: uppercase;
+
+  &:hover {
+    color: rgba(225, 253, 44, 0.6);
+  }
+}

@@ -1,0 +1,18 @@
+.press__link-btn {
+  box-sizing: border-box;
+  @include reset-btn;
+  display: block;
+  width: 110px;
+  height: 52px;
+  border: 1px solid $text-color;
+  border-radius: 55px / 26px;
+  @include font(19px, 52px);
+  font-weight: normal;
+  text-align: center;
+
+  &:hover {
+    background: $text-color;
+    color: $primary-color;
+  }
+}
+

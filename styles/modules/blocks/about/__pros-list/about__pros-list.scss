@@ -1,0 +1,6 @@
+.about__pros-list {
+  grid-column: 2/3;
+  @include reset;
+  border-left: 1px solid $text-color;
+  padding: 40px 45px 50px;
+}

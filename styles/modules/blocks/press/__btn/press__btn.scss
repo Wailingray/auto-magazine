@@ -1,0 +1,12 @@
+.press__btn {
+  @include reset-btn;
+  width: 12px;
+  height: 12px;
+  border: 1px solid $text-color;
+  box-sizing: border-box;
+  border-radius: 999px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

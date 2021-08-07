@@ -1,0 +1,6 @@
+.about__cons-list {
+  grid-column: 3/4;
+  @include reset;
+  border-left: 1px solid $text-color;
+  padding: 40px 45px 50px;
+}

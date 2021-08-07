@@ -1,0 +1,5 @@
+.gallery__title {
+  @include reset;
+  @include font(46px, 100%);
+  font-weight: bold;
+}

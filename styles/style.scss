@@ -1,0 +1,59 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+/*scss*/
+@import "./modules/variables.scss";
+@import "./modules/mixins.scss";
+/*page*/
+@import "./modules/blocks/page/page.scss";
+@import "./modules/blocks/page/__section/page__section.scss";
+/*header*/
+@import "./modules/blocks/header/header.scss";
+@import "./modules/blocks/header/__nav/header__nav.scss";
+@import "./modules/blocks/header/__link/header__link.scss";
+@import "./modules/blocks/header/__label/header__label.scss";
+@import "./modules/blocks/header/__button/header__button.scss";
+/*intro*/
+@import "./modules/blocks/intro/intro.scss";
+@import "./modules/blocks/intro/__title/intro__title.scss";
+@import "./modules/blocks/intro/__subtitle/intro__subtitle.scss";
+@import "./modules/blocks/intro/__pic/intro__pic.scss";
+@import "./modules/blocks/intro/__link-btn/intro__link-btn.scss";
+/*text*/
+@import "./modules/blocks/text/text.scss";
+@import "./modules/blocks/text/_type/text_type_bold.scss";
+/*about*/
+@import "./modules/blocks/about/about.scss";
+@import "./modules/blocks/about/__pros-list/about__pros-list.scss";
+@import "./modules/blocks/about/__cons-list/about__cons-list.scss";
+@import "./modules/blocks/about/__list-head/about__list-head.scss";
+@import "./modules/blocks/about/__list-el/about__list-el.scss";
+/*gallery*/
+@import "./modules/blocks/gallery/gallery.scss";
+@import "./modules/blocks/gallery/__pic/gallery__pic.scss";
+@import "./modules/blocks/gallery/__handler/gallery__handler.scss";
+@import "./modules/blocks/gallery/__title/gallery__title.scss";
+@import "./modules/blocks/gallery/__btns/gallery__btns.scss";
+@import "./modules/blocks/gallery/__btn/gallery__btn.scss";
+@import "./modules/blocks/gallery/__btn/_type/gallery__btn_type_invrt.scss";
+/*press*/
+@import "./modules/blocks/press/press.scss";
+@import "./modules/blocks/press/__content/press__content.scss";
+@import "./modules/blocks/press/__title/press__title.scss";
+@import "./modules/blocks/press/__btns/press__btns.scss";
+@import "./modules/blocks/press/__radios/press__radios.scss";
+@import "./modules/blocks/press/__btn/press__btn.scss";
+@import "./modules/blocks/press/__btn/_type/press__btn_type_active.scss";
+@import "./modules/blocks/press/__link-btn/press__link-btn.scss";
+/*footer*/
+@import "./modules/blocks/footer/footer.scss";
+@import "./modules/blocks/footer/__form/footer__form.scss";
+@import "./modules/blocks/footer/__labels/footer__labels.scss";
+@import "./modules/blocks/footer/__logo/footer__logo.scss";
+@import "./modules/blocks/footer/__copyright/footer__copyright.scss";
+/*form*/
+@import "./modules/blocks/form/form.scss";
+@import "./modules/blocks/form/__title/form__title.scss";
+@import "./modules/blocks/form/__subtitle/form__subtitle.scss";
+@import "./modules/blocks/form/__input-container/form__input-container.scss";
+@import "./modules/blocks/form/__item/form__item.scss";
+@import "./modules/blocks/form/__button/form__button.scss";

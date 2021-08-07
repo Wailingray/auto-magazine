@@ -1,0 +1,7 @@
+.about__list-head {
+  @include reset-list;
+  @include font(30px, 137%);
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}

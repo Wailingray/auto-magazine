@@ -1,0 +1,6 @@
+.intro {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 150px 0;
+  border-bottom: 1px solid $text-color;
+}

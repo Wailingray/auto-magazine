@@ -1,0 +1,9 @@
+.press__title {
+  grid-area: 1/1/2/2;
+  @include reset;
+  @include font(46px,100%);
+  padding: 50px;
+  box-sizing: border-box;
+  font-weight: bold;
+  border-right: 1px solid $text-color;
+}

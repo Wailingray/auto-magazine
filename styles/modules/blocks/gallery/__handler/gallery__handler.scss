@@ -1,0 +1,12 @@
+.gallery__handler {
+  width: 100%;
+  box-sizing: border-box;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  border-right: 1px solid $text-color;
+}

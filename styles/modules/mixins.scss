@@ -1,0 +1,26 @@
+@mixin font($size, $line-height) {
+  font-family: $font-stack;
+  font-size: $size;
+  line-height: $line-height;
+  color: $text-color;
+  font-style: normal;
+}
+
+@mixin reset-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin reset-btn {
+  background-color: transparent;
+  text-decoration: none;
+  border: none;
+  padding: 0;
+}
+
+@mixin reset {
+  margin: 0;
+  padding: 0;
+}
+

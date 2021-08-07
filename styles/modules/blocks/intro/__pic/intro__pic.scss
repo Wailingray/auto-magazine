@@ -1,0 +1,7 @@
+.intro__pic {
+  grid-area: pic;
+  grid-row: span 1;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: right center;
+}

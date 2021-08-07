@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AUTO-MAGAZINE</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body class="page">
+    <header class="header page__section">
+      <nav>
+        <ul class="header__nav">
+          <li class="header__link"><a href="#description"></a>Факты</li>
+          <li class="header__link"><a href="#description"></a>Галерея</li>
+          <li class="header__link"><a href="#description"></a>Пресса</li>
+        </ul>
+      </nav>
+      <img class="header__logo" src="images/logo.png" alt="Логотип журнала" />
+      <button class="header__button"></button>
+    </header>
+    <section class="intro page__section">
+      <div class="intro__text">
+        <p class="intro__subtitle">volkswagen T1</p>
+        <h1 class="intro__title">Новая версия популярного микроавтобуса</h1>
+        <p class="intro__subtitle">с электро двигателем</p>
+        <a href="#description" class="intro__link-btn">Подробнее</a>
+      </div>
+      <img class="intro__pic" src="images/car.png" alt="Volkswagen" />
+    </section>
+    <section class="about page__section">
+      <p class="text">
+        <span class="text_type_bold"> VW T1 Electro: </span>
+        Отделение Volkswagen Commercial Vehicles представило концепт e-Bulli:
+        классический вэн T1 1966 года с электрической силовой установкой. По
+        словам производителя, проект получит коммерческое продолжение, и через
+        фирму-партнера eClassics наборы для конверсии микроавтобусов в
+        электрокары и уже готовые машины будут продавать частным клиентам.
+      </p>
+      <ul class="about__pros-list">
+        <li class="about__list-head">Плюсы</li>
+        <li class="about__list-el">+ Экологичный</li>
+        <li class="about__list-el">+ Экономный</li>
+        <li class="about__list-el">+ Тихий</li>
+      </ul>
+      <ul class="about__cons-list">
+        <li class="about__list-head">Минусы</li>
+        <li class="about__list-el">- Дорогой</li>
+        <li class="about__list-el">- Подзарядка</li>
+      </ul>
+    </section>
+    <section class="gallery page__section">
+      <img src="images/gallery.png" alt="" class="gallery__pic" />
+      <div class="gallery__handler">
+        <h2 class="gallery__title">Галерея</h2>
+        <div class="gallery__btns">
+          <button class="gallery__btn gallery__btn_type_invrt"></button>
+          <button class="gallery__btn"></button>
+        </div>
+      </div>
+    </section>
+    <section class="press page__section">
+      <h2 class="press__title">Пресса</h2>
+      <div class="press__content">
+        <p class="text">
+          <span class="text_type_bold"> Engadget: </span>
+          VW’s e-BULLI concept shows how your classic van can become an EV.
+        </p>
+        <div class="press__btns">
+          <div class="press__radios">
+            <button class="press__btn press__btn_type_active"></button>
+            <button class="press__btn"></button>
+          </div>
+          <a
+            href="https://www.engadget.com/2020-03-20-vw-unveils-e-bulli-t1-electric-conversion.html"
+            class="press__link-btn"
+            >Читать
+          </a>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer__form">
+        <form class="form">
+          <h2 class="form__title">Подписка</h2>
+          <h3 class="form__subtitle">На новые спецвыпуски машин.</h3>
+          <fieldset class="form__input-container">
+            <input
+              type="text"
+              class="form__item form__item_el_name"
+              id="name"
+              name="name"
+              placeholder="имя"
+              required
+            />
+            <input
+              type="text"
+              class="form__item form__item_el_surname"
+              id="surname"
+              name="surname"
+              placeholder="фамилия"
+              required
+            />
+            <input
+              type="text"
+              class="form__item form__item_el_email"
+              id="email"
+              name="email"
+              placeholder="почта"
+              required
+            />
+            <input class="form__button" type="submit" value="подписка"/>
+          </fieldset>
+        </form>
+      </div>
+      <div class="footer__labels">
+        <img class="footer__logo" src="images/logo.png" alt="Логотип журнала">
+        <p class="footer__copyright">
+          &copy Auto-Magazine 2021
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
