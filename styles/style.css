@@ -357,4 +357,45 @@
 }
 
 /*footer*/
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.footer__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  grid-area: 1/1/2/2;
+  padding: 50px;
+}
+
+.footer__labels {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  grid-area: 1/2/2/3;
+  padding: 50px;
+  border-left: 1px solid #E1FD2C;
+}
+
+.footer__logo {
+  width: 184px;
+  height: 38px;
+}
+
+.footer__copyright {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 100%;
+  color: #E1FD2C;
+  font-style: normal;
+  text-align: right;
+  letter-spacing: 1px;
+}
+
 /*form*/

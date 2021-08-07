@@ -1,0 +1,9 @@
+.footer__labels {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  grid-area: 1/2/2/3;
+  padding: 50px;
+  border-left: 1px solid $text-color;
+}
