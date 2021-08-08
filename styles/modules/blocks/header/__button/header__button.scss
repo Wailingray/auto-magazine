@@ -1,6 +1,8 @@
 .header__button {
   visibility: hidden;
   @include reset-btn;
+  grid-column-end: 4;
+  justify-self: flex-end;
   display: flex;
   flex-direction: column;
   justify-content: center;

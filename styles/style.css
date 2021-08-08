@@ -6,8 +6,8 @@
   box-sizing: border-box;
   position: relative;
   padding: 0 50px;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 184px 1fr;
   align-items: center;
   min-height: 70px;
   border-bottom: 1px solid #E1FD2C;
@@ -23,7 +23,7 @@
   padding: 0;
   list-style: none;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -51,8 +51,6 @@
 .header__logo {
   width: 184px;
   height: 38px;
-  position: absolute;
-  left: 44%;
 }
 
 .header__button {
@@ -61,6 +59,8 @@
   text-decoration: none;
   border: none;
   padding: 0;
+  grid-column-end: 4;
+  justify-self: flex-end;
   display: flex;
   flex-direction: column;
   justify-content: center;

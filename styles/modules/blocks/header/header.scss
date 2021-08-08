@@ -2,8 +2,8 @@
   box-sizing: border-box;
   position: relative;
   padding: 0 50px;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 184px 1fr;
   align-items: center;
   min-height: 70px;
   border-bottom: 1px solid $text-color;
