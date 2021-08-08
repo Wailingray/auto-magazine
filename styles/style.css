@@ -118,7 +118,8 @@
 .intro {
   display: grid;
   justify-items: center;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 94px;
   padding: 150px 0;
   border-bottom: 1px solid #E1FD2C;
 }
@@ -172,8 +173,7 @@
 }
 
 .intro__pic {
-  grid-area: pic;
-  grid-row: span 1;
+  grid-row: span 2;
   max-width: 100%;
   -o-object-fit: contain;
      object-fit: contain;
@@ -188,6 +188,7 @@
 }
 .intro__link-btn {
   margin: 0 auto;
+  grid-row-start: 2;
   margin-top: 60px;
   box-sizing: border-box;
   background-color: transparent;
