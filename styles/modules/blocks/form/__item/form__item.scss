@@ -4,9 +4,17 @@
   border: 1px solid $text-color;
   background-color: transparent;
   display: block;
+  @include font(9px, 200%);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: start;
+  padding-left: 11px;
 
   &:focus {
-    outline-color:none;
+    outline:none;
+    &::placeholder {
+      color: transparent;
+    }
   }
 
   &::placeholder {
@@ -14,6 +22,8 @@
     text-transform: uppercase;
     letter-spacing: 1px;
     text-align: start;
-    margin-left: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: start;
   }
 }

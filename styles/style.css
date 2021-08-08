@@ -445,9 +445,27 @@
   border: 1px solid #E1FD2C;
   background-color: transparent;
   display: block;
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+  font-size: 9px;
+  line-height: 200%;
+  color: #E1FD2C;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: start;
+  padding-left: 11px;
 }
 .form__item:focus {
-  outline-color: none;
+  outline: none;
+}
+.form__item:focus::-moz-placeholder {
+  color: transparent;
+}
+.form__item:focus:-ms-input-placeholder {
+  color: transparent;
+}
+.form__item:focus::placeholder {
+  color: transparent;
 }
 .form__item::-moz-placeholder {
   font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
@@ -458,7 +476,9 @@
   text-transform: uppercase;
   letter-spacing: 1px;
   text-align: start;
-  margin-left: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: start;
 }
 .form__item:-ms-input-placeholder {
   font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
@@ -469,7 +489,9 @@
   text-transform: uppercase;
   letter-spacing: 1px;
   text-align: start;
-  margin-left: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: start;
 }
 .form__item::placeholder {
   font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
@@ -480,7 +502,9 @@
   text-transform: uppercase;
   letter-spacing: 1px;
   text-align: start;
-  margin-left: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: start;
 }
 
 .form__button {
