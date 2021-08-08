@@ -34,9 +34,6 @@
 }
 
 .header__link {
-  margin: 0;
-  padding: 0;
-  list-style: none;
   font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
   font-size: 12px;
   line-height: 133%;
@@ -46,6 +43,7 @@
   letter-spacing: 1px;
   margin-right: 20px;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .header__link:hover {
   color: rgba(225, 253, 44, 0.6);
@@ -269,6 +267,10 @@
   -o-object-position: center;
      object-position: center;
 }
+.gallery__btn:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
 
 .gallery__btn_type_invrt {
   background-image: url(../../../../../../images/arrowleft.png);
@@ -454,6 +456,7 @@
   letter-spacing: 1px;
   text-align: start;
   padding-left: 11px;
+  overflow: hidden;
 }
 .form__item:focus {
   outline: none;
