@@ -8,5 +8,7 @@
 @media screen and (max-width: 1023px) {
   .intro__pic {
     margin-top: 100px;
+    grid-row: 2/3;
+    width: 700px;
   }
 }

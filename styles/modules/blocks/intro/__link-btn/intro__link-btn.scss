@@ -19,3 +19,12 @@
     font-weight: bold;
   }
 }
+
+@media screen and (max-width: 1023px) {
+  .intro__link-btn {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    grid-row: 3/4;
+  }
+}
+

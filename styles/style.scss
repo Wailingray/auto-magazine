@@ -3,9 +3,6 @@
 /*scss*/
 @import "./modules/variables.scss";
 @import "./modules/mixins.scss";
-/*page*/
-@import "./modules/blocks/page/page.scss";
-@import "./modules/blocks/page/__section/page__section.scss";
 /*header*/
 @import "./modules/blocks/header/header.scss";
 @import "./modules/blocks/header/__nav/header__nav.scss";
@@ -63,3 +60,6 @@
 @import "./modules/blocks/form/__item/_el/form__item_el_surname.scss";
 @import "./modules/blocks/form/__item/_el/form__item_el_email.scss";
 @import "./modules/blocks/form/__inputs/form__inputs.scss";
+/*page*/
+@import "./modules/blocks/page/page.scss";
+@import "./modules/blocks/page/__section/page__section.scss";
