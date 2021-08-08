@@ -1,0 +1,16 @@
+.header__btn-line {
+  display: block;
+  position: relative;
+  width: 26px;
+  height: 2px;
+  background-color: $text-color;
+
+  &:first-of-type {
+    top:-8px;
+  }
+
+  &:last-of-type {
+    top:8px;
+  }
+
+}

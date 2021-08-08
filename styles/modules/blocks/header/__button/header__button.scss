@@ -1,4 +1,29 @@
 .header__button {
   visibility: hidden;
   @include reset-btn;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 26px;
+  height: 20px;
+  cursor: pointer;
+  z-index: 1;
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:checked {
+    .header__nav {
+      visibility: visible;
+    }
+  }
+
+}
+
+@media screen and (max-width: 1023px) {
+  .header__button {
+    visibility: visible;
+  }
 }
