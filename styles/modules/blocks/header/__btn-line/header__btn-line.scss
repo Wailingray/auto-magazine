@@ -6,11 +6,25 @@
   background-color: $text-color;
 
   &:first-of-type {
-    top:-8px;
+    top: -8px;
   }
 
   &:last-of-type {
-    top:8px;
+    top: 8px;
   }
-
 }
+
+@media screen and (max-width: 767px) {
+  .header__btn-line {
+    width: 20px;
+
+    &:first-of-type {
+      top: -6px;
+    }
+
+    &:last-of-type {
+      top: 6px;
+    }
+  }
+}
+

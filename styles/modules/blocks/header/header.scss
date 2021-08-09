@@ -3,14 +3,21 @@
   position: relative;
   padding: 0 50px;
   display: grid;
-  grid-template-columns: 1fr 184px 1fr;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   min-height: 70px;
   border-bottom: 1px solid $text-color;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .header {
-    padding: 0;
+    padding: 0 32px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    grid-template-columns: 1fr 1fr;
+    padding: 0 20px;
   }
 }

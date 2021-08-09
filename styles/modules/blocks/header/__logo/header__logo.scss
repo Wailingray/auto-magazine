@@ -1,5 +1,23 @@
 .header__logo {
   width: 184px;
   height: 38px;
+  position: absolute;
+  top: 16px;
+  left: calc((100vw - 184px)/2);
+}
 
+@media screen and (min-width: 1441px) {
+  .header__logo {
+    left: calc((1440px - 100px)/2);
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .header__logo {
+    width: 100px;
+    height: 20px;
+    top: 25px;
+    left: calc((100vw - 100px)/2);
+  }
 }
