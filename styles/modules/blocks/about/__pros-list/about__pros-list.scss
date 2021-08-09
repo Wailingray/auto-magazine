@@ -4,3 +4,10 @@
   border-left: 1px solid $text-color;
   padding: 40px 45px 50px;
 }
+
+@media screen and (max-width: 1032px) {
+  .about__pros-list {
+    grid-area: 2/1/3/2;
+  }
+}
+
