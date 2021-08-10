@@ -4,6 +4,7 @@
   width: 26px;
   height: 2px;
   background-color: $text-color;
+  transition: .25s;
 
   &:first-of-type {
     top: -8px;
