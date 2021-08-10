@@ -35,6 +35,11 @@
   transition: 0.25s;
 }
 
+@media screen and (min-width: 1024px) {
+  .header__nav {
+    opacity: 1;
+  }
+}
 @media screen and (max-width: 1023px) {
   .header__nav_opened {
     opacity: 1;
@@ -68,6 +73,7 @@
 @media screen and (min-width: 1441px) {
   .header__logo {
     left: calc((1440px - 100px)/2);
+    opacity: 1;
   }
 }
 @media screen and (max-width: 767px) {
