@@ -31,11 +31,12 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  visibility: hidden;
 }
 
 @media screen and (max-width: 1023px) {
-  .header__nav {
-    visibility: hidden;
+  .header__nav_opened {
+    visibility: visible;
   }
 }
 .header__link {
@@ -75,6 +76,10 @@
     left: calc((100vw - 100px)/2);
   }
 }
+.header__logo_hidden {
+  visibility: hidden;
+}
+
 .header__button {
   visibility: hidden;
   background-color: transparent;
@@ -131,13 +136,13 @@
     top: 6px;
   }
 }
-.header__btn-line_type_close {
+.header__btn-line_rotated {
   transform: rotate(45deg);
 }
-.header__btn-line_type_close:first-of-type {
+.header__btn-line_rotated:first-of-type {
   visibility: hidden;
 }
-.header__btn-line_type_close:last-of-type {
+.header__btn-line_rotated:last-of-type {
   top: -2px;
   transform: rotate(-45deg);
 }
