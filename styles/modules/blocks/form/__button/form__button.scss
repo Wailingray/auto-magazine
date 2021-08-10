@@ -6,10 +6,7 @@
   text-align: center;
   grid-row-start: 2;
   border: 1px solid $text-color;
-
-  &:hover {
-    background: $text-color;
-    color: $primary-color;
-    font-weight: bold;
-  }
+  background: $text-color;
+  color: $primary-color;
+  font-weight: bold;
 }

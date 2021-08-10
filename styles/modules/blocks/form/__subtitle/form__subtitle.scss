@@ -4,3 +4,11 @@
   font-weight: bold;
   padding-bottom: 64px;
 }
+
+@media screen and(max-width: 767px) {
+  .form__subtitle {
+    font-size: 14px;
+    line-height: 100%;
+    padding-bottom: 60px;
+  }
+}

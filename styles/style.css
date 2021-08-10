@@ -661,7 +661,15 @@
   grid-template-columns: 1fr 1fr;
 }
 
+@media screen and (max-width: 767px) {
+  .footer {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr -webkit-min-content;
+    grid-template-rows: 1fr min-content;
+  }
+}
 .footer__form {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -670,7 +678,13 @@
   padding: 50px;
 }
 
+@media screen and (max-width: 767px) {
+  .footer__form {
+    padding: 20px 20px 120px 20px;
+  }
+}
 .footer__labels {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -680,11 +694,31 @@
   border-left: 1px solid #E1FD2C;
 }
 
+@media screen and (max-width: 1023px) {
+  .footer__labels {
+    border-left: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .footer__labels {
+    width: 100%;
+    grid-area: 2/1/3/2;
+    align-items: flex-start;
+    padding: 0 20px 20px 20px;
+  }
+}
 .footer__logo {
   width: 184px;
   height: 38px;
 }
 
+@media screen and (max-width: 767px) {
+  .footer__logo {
+    width: 280px;
+    height: 58px;
+    align-self: center;
+  }
+}
 .footer__copyright {
   margin: 0;
   padding: 0;
@@ -697,6 +731,12 @@
   letter-spacing: 1px;
 }
 
+@media screen and (max-width: 767px) {
+  .footer__copyright {
+    margin-top: 20px;
+    margin-left: 32px;
+  }
+}
 /*form*/
 .form {
   box-sizing: border-box;
@@ -718,6 +758,12 @@
   padding-bottom: 16px;
 }
 
+@media screen and (max-width: 767px) {
+  .form__title {
+    font-size: 26px;
+    padding-bottom: 14px;
+  }
+}
 .form__subtitle {
   margin: 0;
   padding: 0;
@@ -730,6 +776,13 @@
   padding-bottom: 64px;
 }
 
+@media screen and (max-width: 767px) {
+  .form__subtitle {
+    font-size: 14px;
+    line-height: 100%;
+    padding-bottom: 60px;
+  }
+}
 .form__input-container {
   margin: 0;
   padding: 0;
@@ -822,8 +875,6 @@
   text-align: center;
   grid-row-start: 2;
   border: 1px solid #E1FD2C;
-}
-.form__button:hover {
   background: #E1FD2C;
   color: #191D2C;
   font-weight: bold;
@@ -853,6 +904,12 @@
   grid-template-columns: 170px 90px 1fr;
 }
 
+@media screen and (max-width: 767px) {
+  .form__inputs {
+    width: 280px;
+    grid-template-columns: 140px 60px 1fr;
+  }
+}
 /*page*/
 .page {
   background: #191D2C;

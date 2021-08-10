@@ -5,3 +5,10 @@
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: 170px 90px 1fr;
 }
+
+@media screen and(max-width: 767px) {
+  .form__inputs {
+    width: 280px;
+    grid-template-columns: 140px 60px 1fr;
+  }
+}
