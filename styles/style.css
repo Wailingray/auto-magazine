@@ -131,6 +131,17 @@
     top: 6px;
   }
 }
+.header__btn-line_type_close {
+  transform: rotate(45deg);
+}
+.header__btn-line_type_close:first-of-type {
+  visibility: hidden;
+}
+.header__btn-line_type_close:last-of-type {
+  top: -2px;
+  transform: rotate(-45deg);
+}
+
 /*intro*/
 .intro {
   display: grid;

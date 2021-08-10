@@ -1,0 +1,12 @@
+.header__btn-line_type_close {
+    transform: rotate(45deg);
+
+    &:first-of-type {
+      visibility: hidden;
+    }
+
+    &:last-of-type {
+      top: -2px;
+      transform: rotate(-45deg);
+    }
+}
