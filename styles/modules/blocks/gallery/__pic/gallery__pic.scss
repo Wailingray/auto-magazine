@@ -5,3 +5,16 @@
   grid-row: 1/2;
   border-right: 1px solid $text-color;
 }
+
+@media screen and (max-width: 1023px) {
+  .gallery__pic  {
+    padding: 34px 34px 50px 34px;
+    border-right: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .gallery__pic  {
+    padding: 20px 20px 50px 20px;
+  }
+}

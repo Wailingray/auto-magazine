@@ -3,11 +3,18 @@
   background-image: url(../../../../../images/arrow.png);
   width: 42px;
   height: 34px;
-  object-fit: cover;
-  object-position: center;
+  background-size: contain;
+  background-position: center;
 
   &:hover {
     cursor: pointer;
     opacity: 0.6;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .gallery__btn   {
+    width: 24px;
+    height: 20px;
   }
 }

@@ -2,3 +2,9 @@
   display: flex;
   gap: 30px;
 }
+
+@media screen and (max-width: 767px) {
+  .gallery__btns   {
+    gap: 16px;
+  }
+}

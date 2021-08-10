@@ -4,3 +4,10 @@
   grid-template-rows: min-content;
   border-bottom: 1px solid $text-color;
 }
+
+@media screen and (max-width: 1023px) {
+  .gallery  {
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content;
+  }
+}

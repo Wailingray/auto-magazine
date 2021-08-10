@@ -241,13 +241,13 @@
   .intro__pic {
     margin-top: 100px;
     grid-row: 2/3;
-    width: 700px;
+    /* width: 700px; */
   }
 }
 @media screen and (max-width: 767px) {
   .intro__pic {
     margin-top: 60px;
-    width: 280px;
+    /* width: 280px; */
   }
 }
 .intro__link-btn {
@@ -438,6 +438,13 @@
   border-bottom: 1px solid #E1FD2C;
 }
 
+@media screen and (max-width: 1023px) {
+  .gallery {
+    grid-template-columns: 1fr;
+    grid-template-rows: -webkit-min-content;
+    grid-template-rows: min-content;
+  }
+}
 .gallery__pic {
   box-sizing: border-box;
   width: 100%;
@@ -446,6 +453,17 @@
   border-right: 1px solid #E1FD2C;
 }
 
+@media screen and (max-width: 1023px) {
+  .gallery__pic {
+    padding: 34px 34px 50px 34px;
+    border-right: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .gallery__pic {
+    padding: 20px 20px 50px 20px;
+  }
+}
 .gallery__handler {
   width: 100%;
   box-sizing: border-box;
@@ -459,6 +477,18 @@
   border-right: 1px solid #E1FD2C;
 }
 
+@media screen and (max-width: 1023px) {
+  .gallery__handler {
+    border-right: none;
+    padding: 0 50px 50px 50px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .gallery__handler {
+    border-right: none;
+    padding: 0 20px 20px 20px;
+  }
+}
 .gallery__title {
   margin: 0;
   padding: 0;
@@ -470,11 +500,21 @@
   font-weight: bold;
 }
 
+@media screen and (max-width: 767px) {
+  .gallery__title {
+    font-size: 26px;
+  }
+}
 .gallery__btns {
   display: flex;
   gap: 30px;
 }
 
+@media screen and (max-width: 767px) {
+  .gallery__btns {
+    gap: 16px;
+  }
+}
 .gallery__btn {
   background-color: transparent;
   text-decoration: none;
@@ -483,16 +523,20 @@
   background-image: url(../../../../../images/arrow.png);
   width: 42px;
   height: 34px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
+  background-size: contain;
+  background-position: center;
 }
 .gallery__btn:hover {
   cursor: pointer;
   opacity: 0.6;
 }
 
+@media screen and (max-width: 767px) {
+  .gallery__btn {
+    width: 24px;
+    height: 20px;
+  }
+}
 .gallery__btn_type_invrt {
   background-image: url(../../../../../../images/arrowleft.png);
 }

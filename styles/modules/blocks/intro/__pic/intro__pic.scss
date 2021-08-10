@@ -10,13 +10,13 @@
   .intro__pic {
     margin-top: 100px;
     grid-row: 2/3;
-    width: 700px;
+    /* width: 700px; */
   }
 }
 
 @media screen and (max-width: 767px) {
   .intro__pic {
     margin-top: 60px;
-    width: 280px;
+    /* width: 280px; */
   }
 }
