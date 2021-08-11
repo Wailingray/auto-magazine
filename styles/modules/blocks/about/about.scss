@@ -4,7 +4,7 @@
   border-bottom: 1px solid $text-color;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1040px) {
   .about {
     grid-template-columns: 50% 50%;
     grid-template-rows: 1fr 1fr;
