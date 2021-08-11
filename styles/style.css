@@ -563,7 +563,7 @@
   text-decoration: none;
   border: none;
   padding: 0;
-  background-image: url(/images/arrow.png);
+  background-image: url(/images/arrow.svg);
   width: 42px;
   height: 34px;
   background-size: contain;
