@@ -9,6 +9,8 @@ const firstRadioBtn = document.querySelector("#first-radio");
 const secondRadioBtn = document.querySelector("#second-radio");
 const pressLinkBtn = document.querySelector(".press__link-btn");
 const pressTexts = document.querySelectorAll(".press__text");
+const formElement = document.querySelector(".form");
+const formBtn = formElement.querySelector(".form__button");
 
 let carouselCounter = 0;
 
@@ -76,3 +78,12 @@ secondRadioBtn.addEventListener("click", function () {
   pressTexts[0].style.display = "none";
   pressTexts[1].style.display = "block";
 });
+
+/* form */
+
+function submitForm (evt) {
+  evt.preventDefault();
+  formBtn.setAttribute("value", "готово!");
+}
+
+formElement.addEventListener("submit", submitForm);
