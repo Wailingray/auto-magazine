@@ -73,7 +73,6 @@
 @media screen and (min-width: 1441px) {
   .header__logo {
     left: calc((1440px - 100px)/2);
-    opacity: 1;
   }
 }
 @media screen and (max-width: 767px) {
@@ -476,6 +475,10 @@
   grid-column: 1/2;
   grid-row: 1/2;
   border-right: 1px solid #E1FD2C;
+  display: none;
+}
+.gallery__pic:first-of-type {
+  display: block;
 }
 
 @media screen and (max-width: 1023px) {
@@ -673,6 +676,9 @@
 }
 .press__text {
   padding: 40px 50px 0 50px;
+}
+.press__text:last-of-type {
+  display: none;
 }
 
 @media screen and (max-width: 767px) {

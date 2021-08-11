@@ -30,11 +30,11 @@
         <p class="intro__subtitle">с электро двигателем</p>
       </div>
       <img class="intro__pic" src="images/car.png" alt="Volkswagen" />
-      <a href="#description" class="intro__link-btn">Подробнее</a>
+      <a href="#about" class="intro__link-btn">Подробнее</a>
     </section>
     <section class="about page__section" id="about">
       <p class="text about__text">
-        <span class="text_type_bold"> VW T1 Electro: </span>
+        <span class="text_type_bold about__span"> VW T1 Electro: </span>
         Отделение Volkswagen Commercial Vehicles представило концепт e-Bulli:
         классический вэн T1 1966 года с электрической силовой установкой. По
         словам производителя, проект получит коммерческое продолжение, и через
@@ -54,12 +54,14 @@
       </ul>
     </section>
     <section class="gallery page__section" id="gallery">
-      <img src="images/gallery.png" alt="" class="gallery__pic" />
+      <img src="images/gallery1.png" alt="Вид на заднюю часть Volkswagen TL" class="gallery__pic" />
+      <img src="images/gallery2.png" alt="Задняя часть салона Volkswagen TL" class="gallery__pic" />
+      <img src="images/gallery3.png" alt="Передняя часть салона Volkswagen TL" class="gallery__pic" />
       <div class="gallery__handler">
         <h2 class="gallery__title">Галерея</h2>
         <div class="gallery__btns">
-          <button class="gallery__btn gallery__btn_type_invrt"></button>
-          <button class="gallery__btn"></button>
+          <button class="gallery__btn gallery__btn_type_invrt" id="prev-btn"></button>
+          <button class="gallery__btn" id="next-btn"></button>
         </div>
       </div>
     </section>
@@ -70,10 +72,14 @@
           <span class="text_type_bold"> Engadget: </span>
           VW’s e-BULLI concept shows how your classic van can become an EV.
         </p>
+        <p class="text press__text">
+          <span class="text_type_bold"> Drive.ru: </span>
+          Вэн Volkswagen e-Bulli скрестил классику с современной техникой.
+        </p>
         <div class="press__btns">
           <div class="press__radios">
-            <button class="press__btn press__btn_type_active"></button>
-            <button class="press__btn"></button>
+            <button class="press__btn press__btn_type_active" id="first-radio"></button>
+            <button class="press__btn" id="second-radio"></button>
           </div>
           <a
             href="https://www.engadget.com/2020-03-20-vw-unveils-e-bulli-t1-electric-conversion.html"
