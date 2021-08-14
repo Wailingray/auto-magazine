@@ -25,7 +25,9 @@
 @import "./modules/blocks/text/_type/text_type_bold.scss";
 /*about*/
 @import "./modules/blocks/about/about.scss";
+@import "./modules/blocks/about/__pros/about__pros.scss";
 @import "./modules/blocks/about/__pros-list/about__pros-list.scss";
+@import "./modules/blocks/about/__cons/about__cons.scss";
 @import "./modules/blocks/about/__cons-list/about__cons-list.scss";
 @import "./modules/blocks/about/__list-head/about__list-head.scss";
 @import "./modules/blocks/about/__list-el/about__list-el.scss";
