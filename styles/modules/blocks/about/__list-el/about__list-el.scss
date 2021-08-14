@@ -1,7 +1,6 @@
 .about__list-el {
   @include reset-list;
   @include font(22px, 145%);
-  font-weight: normal;
   margin-right: 20px;
 }
 
