@@ -57,6 +57,7 @@
   margin-right: 20px;
   text-transform: uppercase;
   text-decoration: none;
+  transition: 0.2s;
 }
 .header__link:hover {
   color: rgba(225, 253, 44, 0.6);
@@ -303,6 +304,7 @@
   font-weight: normal;
   text-align: center;
   letter-spacing: 1px;
+  transition: 0.2s;
 }
 .intro__link-btn:hover {
   background: #E1FD2C;
@@ -586,6 +588,7 @@
   height: 34px;
   background-size: contain;
   background-position: center;
+  transition: 0.2s;
 }
 .gallery__btn:hover {
   cursor: pointer;
@@ -667,6 +670,7 @@
   border: 1px solid #E1FD2C;
   box-sizing: border-box;
   border-radius: 999px;
+  transition: 0.2s;
 }
 .press__btn:hover {
   cursor: pointer;
@@ -695,6 +699,7 @@
   font-weight: 300;
   font-weight: normal;
   text-align: center;
+  transition: 0.2s;
 }
 .press__link-btn:hover {
   background: #E1FD2C;

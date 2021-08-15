@@ -5,6 +5,7 @@
   border: 1px solid $text-color;
   box-sizing: border-box;
   border-radius: 999px;
+  transition: .2s;
 
   &:hover {
     cursor: pointer;
