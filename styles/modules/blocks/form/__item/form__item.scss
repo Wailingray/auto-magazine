@@ -20,6 +20,7 @@
 
   &::placeholder {
     @include font(9px, 200%);
+    font-weight: normal;
     text-transform: uppercase;
     letter-spacing: 1px;
     text-align: start;

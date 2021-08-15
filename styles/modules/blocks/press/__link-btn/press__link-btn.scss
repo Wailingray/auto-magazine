@@ -9,6 +9,7 @@
   @include font(19px, 52px);
   font-weight: normal;
   text-align: center;
+  transition: .2s;
 
   &:hover {
     background: $text-color;

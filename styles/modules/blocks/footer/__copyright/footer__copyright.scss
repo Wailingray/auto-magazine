@@ -1,6 +1,7 @@
 .footer__copyright {
   @include reset;
   @include font(13px, 100%);
+  font-weight: normal;
   text-align: right;
   letter-spacing: 1px;
 }

@@ -1,22 +1,3 @@
 .about__cons-list {
-  grid-column: 3/4;
-  @include reset;
-  border-left: 1px solid $text-color;
-  padding: 40px 50px 45px 50px;
+  @include reset-list;
 }
-
-@media screen and (max-width: 1040px) {
-  .about__cons-list {
-    grid-area: 2/2/3/3;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .about__cons-list {
-    grid-area: 3/1/4/2;
-    border-top: 1px solid $text-color;
-    border-left: none;
-    padding: 20px;
-  }
-}
-

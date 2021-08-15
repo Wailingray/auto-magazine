@@ -12,11 +12,12 @@
   font-weight: normal;
   text-align: center;
   letter-spacing: 1px;
+  transition: .2s;
 
   &:hover {
     background: $text-color;
     color: $primary-color;
-    font-weight: bold;
+    font-weight: 600;
   }
 }
 

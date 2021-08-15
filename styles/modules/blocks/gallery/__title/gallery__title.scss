@@ -1,7 +1,7 @@
 .gallery__title {
   @include reset;
   @include font(46px, 100%);
-  font-weight: bold;
+  font-weight: normal;
 }
 
 @media screen and (max-width: 767px) {
