@@ -5,6 +5,7 @@
   top: 16px;
   left: calc((100vw - 184px)/2);
   transition: .25s;
+  z-index: -1;
 }
 
 @media screen and (min-width: 1441px) {
